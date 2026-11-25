@@ -162,3 +162,10 @@ footer a[href*="wa.me"]:hover {
     background-color: #128C7E;
     text-decoration: none;
 }
+
+.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
