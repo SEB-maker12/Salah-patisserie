@@ -1,4 +1,4 @@
-
+قرب
 /* General style */
 body {
     background-color: #fff8f0;
@@ -93,4 +93,8 @@ article img {
 
 article img:hover {
     transform: scale(1.05);
+}
+
+nav a:active {
+    color: #ffd700;
 }
