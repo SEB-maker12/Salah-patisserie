@@ -79,3 +79,10 @@ article:hover {
     gap: 20px;
 }
 
+article img {
+    transition: transform 0.3s ease;
+}
+
+article img:hover {
+    transform: scale(1.05);
+}
