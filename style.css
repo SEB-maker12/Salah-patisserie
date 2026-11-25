@@ -119,3 +119,11 @@ article h3 {
     font-size: 22px;
     margin-bottom: 15px;
 }
+
+article p {
+    color: #6b5145;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 10px;
+}
