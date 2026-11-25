@@ -97,6 +97,19 @@ img {
     margin: 15px auto;
 }
 
+/* Figure and image captions */
+figure {
+    margin: 15px 0;
+    text-align: center;
+}
+
+figcaption {
+    color: #6b5145;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+}
+
 article img {
     transition: transform 0.3s ease;
 }
