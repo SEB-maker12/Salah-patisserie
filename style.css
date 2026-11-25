@@ -183,6 +183,21 @@ footer a[href*="wa.me"]:hover {
     }
 }
 
+article a {
+    display: inline-block;
+    background-color: #5c3025;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+article a:hover {
+    background-color: #8b5e3c;
+}
+
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
