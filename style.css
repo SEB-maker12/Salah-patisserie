@@ -28,6 +28,14 @@ nav a {
     margin: 15px;
 }
 
+nav a {
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
 /* Main content */
 main {
     padding: 20px;
