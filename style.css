@@ -169,3 +169,22 @@ footer a[href*="wa.me"]:hover {
     vertical-align: middle;
     margin-right: 8px;
 }
+
+@media (max-width: 600px) {
+    #desserts {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    article h3 {
+        font-size: 20px;
+    }
+
+    article img {
+        max-width: 100%;
+    }
+}
