@@ -1,7 +1,10 @@
 
 /* General style */
 body {
-    background-color: red;
+    background-color: #fff8f0;
+    font-family: Arial, sans-serif;
+    color: #4a3025;
+    margin: 0;
 }
 
 /* Header */
