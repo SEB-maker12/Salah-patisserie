@@ -25,7 +25,7 @@ nav {
     gap: 10px;
     padding: 15px;
 }
-    
+
 nav a {
     color: white;
     text-decoration: none;
@@ -35,12 +35,10 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a {
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
+nav a:hover,
+nav a:active {
     color: #ffd700;
+    background-color: #5c3025;
 }
 
 /* Main content */
@@ -54,6 +52,12 @@ h2 {
 }
 
 /* Dessert cards */
+#desserts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
 article {
     background-color: white;
     padding: 20px;
@@ -63,54 +67,9 @@ article {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Image */
-img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-    margin: 15px auto;
-}
-
-/* Footer */
-footer {
-    background-color: #5c3025;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-article {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
 article:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-}
-
-#desserts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-article img {
-    transition: transform 0.3s ease;
-}
-
-article img:hover {
-    transform: scale(1.05);
-}
-
-nav a:active {
-    color: #ffd700;
-}
-
-nav a:hover,
-nav a:active {
-    background-color: #5c3025;
 }
 
 article h3 {
@@ -128,26 +87,48 @@ article p {
     margin-top: 10px;
 }
 
+/* Images */
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+
+article img {
+    transition: transform 0.3s ease;
+}
+
+article img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #5c3025;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 footer a {
-    color: #ffd700;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 footer a[href^="mailto:"] {
     color: #ffd700;
+    transition: color 0.3s ease;
 }
 
-footer a[href*="wa.me"] {
-    color: white;
-}
-
-footer a:hover {
+footer a[href^="mailto:"]:hover {
     color: white;
     text-decoration: underline;
 }
 
+/* WhatsApp button */
 footer a[href*="wa.me"] {
     display: inline-block;
     background-color: #25D366;
@@ -160,7 +141,6 @@ footer a[href*="wa.me"] {
 
 footer a[href*="wa.me"]:hover {
     background-color: #128C7E;
-    text-decoration: none;
 }
 
 .whatsapp-icon {
@@ -170,6 +150,7 @@ footer a[href*="wa.me"]:hover {
     margin-right: 8px;
 }
 
+/* Mobile responsive design */
 @media (max-width: 600px) {
     #desserts {
         grid-template-columns: 1fr;
