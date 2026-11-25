@@ -112,3 +112,10 @@ nav a:hover,
 nav a:active {
     background-color: #5c3025;
 }
+
+article h3 {
+    color: #5c3025;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
