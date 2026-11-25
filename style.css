@@ -20,12 +20,15 @@ nav {
     background-color: #8b5e3c;
     text-align: center;
     padding: 15px;
-}
-
+}   
+    
 nav a {
     color: white;
     text-decoration: none;
     margin: 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
 }
 
 nav a {
@@ -97,4 +100,9 @@ article img:hover {
 
 nav a:active {
     color: #ffd700;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #5c3025;
 }
