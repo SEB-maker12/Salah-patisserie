@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://seb-maker12.github.io/Salah-patisserie/sitemap.xml
